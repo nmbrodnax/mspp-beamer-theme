@@ -22,4 +22,4 @@ documentation, or run `kpsewhich -var-value TEXMFHOME` in a terminal.
 # Use
 For basic use just put `\usetheme{iqss}` in the preamble.
 
-A handful of new commands are provided. `\iqsssectiontitle{}` can be used to set a frame title for the section outline pages. For example, you may wish to set `iqsssectiontitle{Outline}`. In addition, colored text can be inserted using `alertb{} ... \alerte{}`. See mspp_theme_demo.tex for examples.
+A handful of new commands are provided. `\msppsectiontitle{}` can be used to set a frame title for the section outline pages. For example, you may wish to set `msppsectiontitle{Outline}`. In addition, colored text can be inserted using `alertb{} ... \alerte{}`. See mspp_theme_demo.tex for examples.
