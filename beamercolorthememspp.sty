@@ -9,6 +9,7 @@
 %
 
 \RequirePackage{listings}
+\RequirePackage{courier}
 
 \mode<presentation>
 
@@ -26,17 +27,25 @@
 \definecolor{mspp@green}{rgb}{0.392,0.655,0.043}
 \definecolor{mspp@red}{rgb}{0.835,0,0.196}
 \definecolor{mspp@gugray}{rgb}{0.388,0.4,0.416}
+\definecolor{mspp@gray}{rgb}{0.733,0.737,0.737}
+\definecolor{mspp@khaki}{rgb}{0.839,0.824,0.769}
 
 \lstset{ %
   basicstyle=\ttfamily\footnotesize,
-  backgroundcolor=\color{mspp@gugray},
-  commentstyle=\color{mspp@green},
-  keywordstyle=\color{mspp@blue},
-  stringstyle=\color{mspp@teal},
+  backgroundcolor=\color{white},
+  breakatwhitespace=true,
+  breaklines=true,
+  frame=single,
+  rulecolor=\color{mspp@gray},
+  commentstyle=\color{mspp@crimson},
+  keywordstyle=\color{mspp@teal},
+  stringstyle=\color{mspp@green},
   keepspaces=true,
   showspaces=false,
   showstringspaces=false,
-  showtabs=false
+  showtabs=false,
+  tabsize=4,
+  language=Python
 }
 
 \newcommand<>{\alertb}[1]{\setbeamercolor{alerted text}{fg=mspp@red}%
